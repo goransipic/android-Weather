@@ -19,6 +19,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="hr.in2.goran.weather.DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:parentActivityName="hr.in2.goran.weather.MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hr.in2.goran.weather.MainActivity" />
+        </activity>
+        <activity
+            android:name="hr.in2.goran.weather.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="hr.in2.goran.weather.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hr.in2.goran.weather.MainActivity" />
+        </activity>
+
+        <provider
+            android:name="hr.in2.goran.weather.data.WeatherProvider"
+            android:authorities="com.example.android.sunshine.app" />
     </application>
 
 </manifest>
