@@ -6,7 +6,7 @@ import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import hr.in2.weatherapp.ui.R;
+
 
 import android.content.SharedPreferences;
 import android.os.Bundle;

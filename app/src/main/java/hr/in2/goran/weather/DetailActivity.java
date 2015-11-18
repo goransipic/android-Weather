@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import hr.in2.weatherapp.ui.R;
+
 
 public class DetailActivity extends AppCompatActivity {
 
